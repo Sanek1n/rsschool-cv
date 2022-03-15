@@ -12,3 +12,7 @@ I am interesting:
 e-mail: sanekin8ru@outlook.com
 Github: Sanek1n
 Discord: Sanekin
+
+## Education
+Saratov State University
+Teacher of physic and informatic
