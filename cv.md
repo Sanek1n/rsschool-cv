@@ -7,3 +7,8 @@ I am interesting:
 * NFL
 * Computer games
 * Fitness
+
+## Contacts
+e-mail: sanekin8ru@outlook.com
+Github: Sanek1n
+Discord: Sanekin
