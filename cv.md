@@ -16,6 +16,16 @@ Now I am studying a new profession for me front-end developer, which I hope will
 * Academy IT - ITIL: Introduction to IT Service Management. Service support processes and Service Desk organization
 * Worldskills - Content management technologies
 
+## Skills
+* HTML
+* CSS, SCSS
+* Javascript
+* Typescript
+* Git/GitHub
+* Webpack
+* Angular
+* NestJS
+
 ## Hobby
 I am interesting:
 * Formula 1
