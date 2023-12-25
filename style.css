@@ -1,0 +1,229 @@
+  /*установка шрифтов*/
+  @font-face {
+    font-family: 'WorkSans';
+    src: url("assets/fonts/WorkSans-Thin.ttf");
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: 'WorkSans';
+    src: url("assets/fonts/WorkSans-Regular.ttf");
+    font-weight: 300;
+  }
+
+  @font-face {
+    font-family: 'WorkSans';
+    src: url("assets/fonts/WorkSans-Bold.ttf");
+    font-weight: 800;
+  }
+
+  html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0
+  }
+
+  body {
+    font-family: 'WorkSans';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5em;
+    background: #2d5980;
+    color: #4cc103;
+  }
+
+  body h1 {
+    font-size: 32px;
+  }
+
+  body h2 {
+    font-size: 24px;
+  }
+
+  .header {
+    margin: 0 auto;
+    background: #002145;
+  }
+
+  .container {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 60px;
+    list-style: none;
+  }
+
+  .nav-link {
+    padding: 0 10px;
+    line-height: 50px;
+    color: #4cc103;
+    text-decoration: none;
+  }
+
+  .nav-item {
+    width: fit-content;
+    margin-right: 0px;
+    transition: 0.25s;
+  }
+
+  .nav-item:hover {
+    padding-bottom: 10px;
+    text-shadow: #4cc103 0 5px 15px;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section {
+    width: 50%;
+    margin-top: 20px;
+    }
+
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+
+    .nav-list {
+      height: 120px;
+    }
+  }
+
+  .section-profile {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-top: 20px;
+    }
+
+  .section-photo {
+    width: 50%;
+    align-self: center;
+    text-align: center;
+  }
+
+  .section-photo img {
+    width: 200px;
+    border-radius: 50%;
+  }
+
+  .section-head {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px 20px;
+    background: #002145;
+    align-self: center;
+    text-align: center;
+    line-height: 3em;
+    border-radius: 20px;
+  }
+
+  .section-title {
+    margin: 0 5px;
+    padding: 10px 20px;
+    background: #002145;
+  }
+
+  .section-content {
+    margin-left: 10px;
+    padding: 10px 10px;
+    color: #4cc103;
+  }
+
+  .section-content a{
+    color: #4cc103;
+    text-decoration: none;
+  }
+
+  .courses-items {
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  .courses-items:hover {
+    font-weight: 600;
+  }
+
+  .section>ul {
+    padding-left: 40px;
+  }
+
+  .section-code {
+    margin: 10px 20px;
+    padding-left: 30px;
+    background: #002145;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+
+  .section-bg {
+    display: none;
+    position: fixed;
+    z-index: 15;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+  }
+
+  .back-content {
+    margin: auto;
+    display: block;
+    height: 100%;
+}
+
+  .bg-close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .bg-close:hover,
+  .bg-close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .footer {
+    margin: 0 auto;
+    height: 60px;
+    background: #002145;
+  }
+
+  .footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    list-style: none;
+
+  }
+
+  .footer-link {
+    color: #4cc103;
+    text-decoration: none;
+  }
+
+  .footer img {
+    height: 40px;
+  }
