@@ -2,8 +2,6 @@ const openImage = document.getElementById('open-image');
 const backImage = document.getElementById("image-full");
 const closeButton = document.querySelector('.bg-close');
 
-console.log(closeButton);
-
 closeButton.addEventListener('click', () => {
   openImage.style.display = "none";
   openImage.removeChild(document.getElementById("image-full"));
