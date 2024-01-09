@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cv</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About&nbsp;me</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main-container">
+                <section class="section-profile">
+                    <div class="section-photo">
+                        <img src="assets/img/photo.jpeg" alt="photo" width="199" height="252">
+                    </div>
+                    <div class="section-head">
+                        <h1>Kukovskii Alexandr</h1>
+                        <h2>front-end developer</h2>
+                    </div>
+                </section>
+                <section class="section" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul class="section-content">
+                        <li>Balashov, Russia</li>
+                        <li>E-mail: sanekin8ru@outlook.com</li>
+                        <li>Github: Sanek1n</li>
+                        <li>Discord: Sanekin#5054</li>
+                        <li>Telegram: @Sanekin</li>
+                    </ul>
+                </section>
+                <section class="section" id="about">
+                    <h2 class="section-title">About me</h2>
+                    <p class="section-content">I am 45 years old. Currently I work as a technical support engineer in the IT department. I like to study and learn something new.
+                         I like to read books, listen to music of different genres, I try to lead an active lifestyle.
+                         Now I am studying a new profession for me front-end developer, which I hope will be useful to me in the future.
+                        </p>
+                </section>
+                <section class="section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <p class="section-content">Saratov State University</p>
+                    <ul class="section-content">
+                        <li>Teacher of physic and informatic</li>
+                    </ul>
+                </section>
+                <section class="section" id="english">
+                    <h2 class="section-title">English</h2>
+                    <p class="section-content">A1 Beginner (A1 Elementary in process)</p>
+                </section>
+                <section class="section" id="courses">
+                    <h2 class="section-title">Courses</h2>
+                    <ul class="section-content">
+                        <li class="courses-items" onclick="getCertificate('tritec-oracle')">Tritec - Introduction to Object-relational databases (Oracle)</li>
+                        <li class="courses-items" onclick="getCertificate('itil')">Academy IT - ITIL: Introduction to IT Service Management. Service support processes and Service Desk organization</li>
+                        <li class="courses-items" onclick="getCertificate('tritec-astra-linux')">Tritec - Administration OS Astra Linux Special Edition 1.7</li>
+                        <li class="courses-items"><a href="https://app.rs.school/certificate/2ykjsce8" target="_blank">RS School - JS/FE Pre-School 2022</a></li>
+                        <li class="courses-items"><a href="https://app.rs.school/certificate/enpd8n32" target="_blank">RS School - JavaScript/Front-end 2022Q3</a></li>
+                    </ul>
+                    <div id="open-image" class="section-bg">
+                        <span class="bg-close">×</span>
+                    </div>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="section-content">
+                        <li>Web-development: HTML5, CSS3, Javascript, Typescript, Angular</li>
+                        <li>Graphics: Figma, Gimp</li>
+                        <li>Version control: GIT, Github</li>
+                        <li>Database: Foxpro, MySQL, Oracle</li>
+                    </ul>
+                </section>
+                <section class="section" id="projects">
+                    <h2 class="section-title">Projects</h2>
+                    <ul class="section-content">
+                        <li><a href="https://rolling-scopes-school.github.io/sanek1n-JSFE2022Q3/nationalanthem/" target="_blank"><strong>Game "Guess the anthem"</strong></a> (HTML, CSS, Javascript)</li>
+                        <li><a href="https://rolling-scopes-school.github.io/sanek1n-JSFE2022Q3/gem-puzzle/" target="_blank"><strong>Game "The 15 Puzzle"</strong></a> (HTML, CSS, Javascript)</li>
+                        <li><a href="https://rolling-scopes-school.github.io/sanek1n-JSFE2023Q4/coffee-house/" target="_blank"><strong>Layout "Cofee House"</strong></a> (HTML, CSS, Javascript)</li>
+                        <li><a href="https://rolling-scopes-school.github.io/sanek1n-JSFE2022Q3/online-zoo/pages/main/" target="_blank"><strong>Layout "Online zoo"</strong></a> (HTML, CSS, Javascript)</li>
+                        <li><a href="https://github.com/Sanek1n/online-store/tree/develop" target="_blank"><strong>Team project "Online store"</strong></a> (HTML, SCSS, Typescript, Webpack) <a href="https://sanek1n.github.io/online-store/" target="_blank"><strong>Deploy link</strong></a></li>
+                        <li><a href="https://github.com/Sanek1n/Rs-Clone" target="_blank"><strong>Team project "Trello Clone App"</strong></a> (React, SCSS, Typescript) <a href="https://trello-clone-appl.netlify.app/welcome" target="_blank"><strong>Deploy link</strong></a></li>
+                        <li><a href="https://github.com/Sanek1n/youtube-client-angular" target="_blank"><strong>Angular project "Youtube App"</strong></a> (Angular, SCSS, Typescript) <a href="https://sanek1n.github.io/youtube-client-angular/youtube-client/youtube-client-part4-forms/" target="_blank"><strong>Deploy link</strong></a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer-content">
+                <li>&copy; 2023</li>
+                <li><a href="https://github.com/Sanek1n" class="footer-link">Sanek1n on Github</a> </li>
+                <li><a href="https://rs.school/js/" class="footer-link"><img src="assets/svg/rs_school_js_white.svg" alt="rsschool"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
